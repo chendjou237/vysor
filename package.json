@@ -2,7 +2,6 @@
   "name": "vysor",
   "homepage": ".",
   "version": "1.4.0",
-  "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
     "@fullcalendar/bootstrap": "^5.11.3",
