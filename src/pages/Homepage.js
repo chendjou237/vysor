@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Content from "../layout/content/Content";
 import Head from "../layout/head/Head";
+import appicon from "../images/favicon.png"
 import ActiveUser from "../components/partials/default/active-user/ActiveUser";
 import UserMap from "../components/partials/default/user-map/UserMap";
 import WebsitePerformance from "../components/partials/default/website-perfomance/WebsitePerfomance";
@@ -34,10 +35,10 @@ const HomePage = () => {
           <div className="nk-block-between">
             <BlockHeadContent>
               <BlockTitle page tag="h3">
-                Website Analytics
+                <img src={appicon} alt="app icon" width={60} height={60} /> Donnee Analytique
               </BlockTitle>
               <BlockDes className="text-soft">
-                <p>Welcome to Analytics Dashboard.</p>
+                <p>Bienvenue dans le tableau de bord Analytics.</p>
               </BlockDes>
             </BlockHeadContent>
             <BlockHeadContent>
@@ -115,6 +116,11 @@ const HomePage = () => {
                 <AudienceOverview />
               </PreviewAltCard>
             </Col>
+             <Col md="5" xxl="3">
+              <PreviewAltCard className="h-100 card-bordered">
+                <UserMap />
+              </PreviewAltCard>
+            </Col>
             <Col md="6" lg="5" xxl="3">
               <PreviewAltCard className="h-100 card-bordered">
                 <ActiveUser />
@@ -135,11 +141,7 @@ const HomePage = () => {
                 <TrafficDougnut />
               </PreviewAltCard>
             </Col>
-            <Col md="6" xxl="3">
-              <PreviewAltCard className="h-100 card-bordered">
-                <UserMap />
-              </PreviewAltCard>
-            </Col>
+           
             <Col xxl="6">
               <Card className="card-bordered h-100">
                 <BrowserUser />

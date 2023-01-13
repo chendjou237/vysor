@@ -8,8 +8,8 @@ const AudienceOverview = () => {
     <React.Fragment>
       <div className="card-title-group pb-3 g-2">
         <div className="card-title card-title-sm">
-          <h6 className="title">Audience Overview</h6>
-          <p>How have your users, sessions, bounce rate metrics trended.</p>
+          <h6 className="title">Aperçu du public</h6>
+          <p>Comment vos utilisateurs, vos sessions et vos taux de rebond ont-ils évolué ?</p>
         </div>
         <div className="card-tools shrink-0 d-none d-sm-block">
           <ul className="nav nav-switch-s2 nav-tabs bg-white">

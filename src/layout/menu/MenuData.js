@@ -10,13 +10,13 @@ const menu = [
   },
   {
     icon: "speed",
-    text: "Sales Dashboard",
+    text: "Activity Dashboard",
     link: "/sales",
     dashboard: true,
   },
   {
     icon: "bitcoin-cash",
-    text: "Crypto Dashboard",
+    text: "Sales Dashboard",
     link: "/crypto",
     dashboard: true,
   },
@@ -272,134 +272,7 @@ const menu = [
       },
     ],
   },
-  {
-    heading: "Components",
-  },
-  {
-    icon: "layers",
-    text: "Ui Elements",
-    active: false,
-    subMenu: [
-      {
-        text: "Alerts",
-        link: "/components/alerts",
-      },
-      {
-        text: "Accordions",
-        link: "/components/accordions",
-      },
-      {
-        text: "Avatar",
-        link: "/components/avatar",
-      },
-      {
-        text: "Badges",
-        link: "/components/badges",
-      },
-      {
-        text: "Buttons",
-        link: "/components/buttons",
-      },
-      {
-        text: "Button Group",
-        link: "/components/button-group",
-      },
-      {
-        text: "Breadcrumbs",
-        link: "/components/breadcrumbs",
-      },
-      {
-        text: "Cards",
-        link: "/components/cards",
-      },
-      {
-        text: "Carousel",
-        link: "/components/carousel",
-      },
-      {
-        text: "Dropdowns",
-        link: "/components/dropdowns",
-      },
-      {
-        text: "Modals",
-        link: "/components/modals",
-      },
-      {
-        text: "Pagination",
-        link: "/components/pagination",
-      },
-      {
-        text: "Popovers",
-        link: "/components/popovers",
-      },
-      {
-        text: "Progress",
-        link: "/components/progress",
-      },
-      {
-        text: "Spinner",
-        link: "/components/spinner",
-      },
-      {
-        text: "Tabs",
-        link: "/components/tabs",
-      },
-      {
-        text: "Toast",
-        link: "/components/toast",
-      },
-      {
-        text: "Typography",
-        link: "/components/typography",
-      },
-      {
-        text: "Tooltips",
-        link: "/components/tooltips",
-      },
-      {
-        text: "Utilities",
-        active: false,
-        subMenu: [
-          {
-            text: "Borders",
-            link: "/components/util-border",
-          },
-          {
-            text: "Colors",
-            link: "/components/util-colors",
-          },
-          {
-            text: "Display",
-            link: "/components/util-display",
-          },
-          {
-            text: "Embeded",
-            link: "/components/util-embeded",
-          },
-          {
-            text: "Flex",
-            link: "/components/util-flex",
-          },
-          {
-            text: "Text",
-            link: "/components/util-text",
-          },
-          {
-            text: "Sizing",
-            link: "/components/util-sizing",
-          },
-          {
-            text: "Spacing",
-            link: "/components/util-spacing",
-          },
-          {
-            text: "Others",
-            link: "/components/util-others",
-          },
-        ],
-      },
-    ],
-  },
+  
   {
     icon: "dot-box",
     text: "Crafted Icons",

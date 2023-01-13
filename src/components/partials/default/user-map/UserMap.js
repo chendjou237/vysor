@@ -8,7 +8,7 @@ const UserMap = () => {
     <React.Fragment>
       <div className="card-title-group">
         <div className="card-title card-title-sm">
-          <h6 className="title">Users by country</h6>
+          <h6 className="title">Utilisateurs par pays</h6>
         </div>
         <UncontrolledDropdown>
           <DropdownToggle className="dropdown-indicator btn btn-sm btn-outline-light btn-white">

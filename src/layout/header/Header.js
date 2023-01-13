@@ -35,7 +35,7 @@ const Header = ({ fixed, theme, className, sidebarToggle, setVisibility }) => {
               <Icon name="dashlite" className="bg-purple-dim"></Icon>
             </div>
             <div className="nk-header-app-info">
-              <span className="sub-text">DashLite</span>
+              <span className="sub-text">FlowPort</span>
               <span className="lead-text">Dashboard</span>
             </div>
           </div>
@@ -49,7 +49,7 @@ const Header = ({ fixed, theme, className, sidebarToggle, setVisibility }) => {
                     <span className="nk-menu-text">Overview</span>
                   </Link>
                 </li>
-                <li
+                {/* <li
                   className={`nk-menu-item ${
                     currentUrl === process.env.PUBLIC_URL + "/components" ? "active current-page" : ""
                   }`}
@@ -57,7 +57,7 @@ const Header = ({ fixed, theme, className, sidebarToggle, setVisibility }) => {
                   <Link to={`${process.env.PUBLIC_URL}/components`} className="nk-menu-link">
                     <span className="nk-menu-text">Components</span>
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>

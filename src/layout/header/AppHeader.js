@@ -23,9 +23,7 @@ const AppHeader = ({ fixed, theme, className, app, sidebarToggle, setVisibility 
             <Toggle className="nk-nav-toggle nk-quick-nav-icon" icon="menu" click={sidebarToggle} />
           </div>
           <div className="nk-header-app-name">
-            <div className="nk-header-app-logo">
-              <Icon name={app.icon} className={app.theme}></Icon>
-            </div>
+            
             <div className="nk-header-app-info">
               <span className="sub-text">Apps</span>
               <span className="lead-text">{app.text}</span>
